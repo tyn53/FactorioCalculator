@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioCalculator", "FactorioCalculator\FactorioCalculator.csproj", "{A5956EE5-7E0D-4347-8BD6-E896168C8019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorioCalculator", "FactorioCalculator\FactorioCalculator.csproj", "{A5956EE5-7E0D-4347-8BD6-E896168C8019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioCalculatorUnitTest", "FactorioCalculatorUnitTest\FactorioCalculatorUnitTest.csproj", "{50D4D506-251A-4B61-902E-09756699069E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A5956EE5-7E0D-4347-8BD6-E896168C8019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5956EE5-7E0D-4347-8BD6-E896168C8019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5956EE5-7E0D-4347-8BD6-E896168C8019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D4D506-251A-4B61-902E-09756699069E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D4D506-251A-4B61-902E-09756699069E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D4D506-251A-4B61-902E-09756699069E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D4D506-251A-4B61-902E-09756699069E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
