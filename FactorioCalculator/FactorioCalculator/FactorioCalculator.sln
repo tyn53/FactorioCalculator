@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorioCalculator", "Facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioCalculatorUnitTest", "FactorioCalculatorUnitTest\FactorioCalculatorUnitTest.csproj", "{50D4D506-251A-4B61-902E-09756699069E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioLibrary", "FactorioLibrary\FactorioLibrary.csproj", "{79D4D528-B7BD-45F6-9713-FE49A25BA685}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{50D4D506-251A-4B61-902E-09756699069E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D4D506-251A-4B61-902E-09756699069E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D4D506-251A-4B61-902E-09756699069E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D4D528-B7BD-45F6-9713-FE49A25BA685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D4D528-B7BD-45F6-9713-FE49A25BA685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D4D528-B7BD-45F6-9713-FE49A25BA685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D4D528-B7BD-45F6-9713-FE49A25BA685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
