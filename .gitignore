@@ -1,1 +1,3 @@
 FactorioCalculator/FactorioCalculator/.vs/*
+*.dll
+*.cache

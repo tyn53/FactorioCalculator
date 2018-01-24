@@ -7,11 +7,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using FactorioLibrary.Repository;
+using System.Threading;
 
 namespace FactorioCalculator
 {
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -22,6 +25,11 @@ namespace FactorioCalculator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //TODO: https://docs.microsoft.com/en-us/ef/core/get-started/aspnetcore/new-db setup dbContext
+            services.AddDbContext(ServiceLifetime.Scoped)
+
+            services.AddTransient<IUserRepository, UserRepository>();
+
             services.AddMvc();
         }
 

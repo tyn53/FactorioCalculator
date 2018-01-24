@@ -3,11 +3,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace FactorioLibraryUnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class BaseModelTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void UserModelTest()
         {
+            
         }
     }
 }

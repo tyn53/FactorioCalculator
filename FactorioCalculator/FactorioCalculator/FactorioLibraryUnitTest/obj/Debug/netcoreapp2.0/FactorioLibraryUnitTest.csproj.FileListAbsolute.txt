@@ -1,0 +1,11 @@
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\FactorioLibraryUnitTest.deps.json
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\FactorioLibraryUnitTest.runtimeconfig.json
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\FactorioLibraryUnitTest.runtimeconfig.dev.json
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\bin\Debug\netcoreapp2.0\FactorioLibraryUnitTest.dll
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\obj\Debug\netcoreapp2.0\FactorioLibraryUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\obj\Debug\netcoreapp2.0\FactorioLibraryUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\obj\Debug\netcoreapp2.0\FactorioLibraryUnitTest.AssemblyInfoInputs.cache
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibraryUnitTest\obj\Debug\netcoreapp2.0\FactorioLibraryUnitTest.AssemblyInfo.cs

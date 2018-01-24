@@ -1,0 +1,5 @@
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibrary\bin\Debug\netcoreapp2.0\FactorioLibrary.deps.json
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibrary\bin\Debug\netcoreapp2.0\FactorioLibrary.dll
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibrary\obj\Debug\netcoreapp2.0\FactorioLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibrary\obj\Debug\netcoreapp2.0\FactorioLibrary.AssemblyInfoInputs.cache
+C:\Users\Jason\Documents\GitHub\FactorioCalculator\FactorioCalculator\FactorioCalculator\FactorioLibrary\obj\Debug\netcoreapp2.0\FactorioLibrary.AssemblyInfo.cs
