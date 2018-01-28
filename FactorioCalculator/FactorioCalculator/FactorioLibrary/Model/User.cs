@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using FactorioLibrary.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace FactorioLibrary.Model
 {
@@ -14,12 +15,11 @@ namespace FactorioLibrary.Model
             _repository = repo;
         }
 
-        int Id { get; set; }
-        int IModel<User>.Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        DateTime IModel<User>.CreatedOn { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime ModifiedOn { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int ModifiedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Id { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public DateTime ModifiedOn { get; set; }
+        public int CreatedBy { get; set; }
+        public int ModifiedBy { get; set; }
 
         public IEnumerable<User> GetAll()
         {

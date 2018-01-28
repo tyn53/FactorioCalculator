@@ -8,7 +8,9 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using FactorioLibrary.Repository;
+using FactorioLibrary.DataAccess;
 using System.Threading;
+using Microsoft.EntityFrameworkCore;
 
 namespace FactorioCalculator
 {
@@ -25,10 +27,10 @@ namespace FactorioCalculator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //TODO: https://docs.microsoft.com/en-us/ef/core/get-started/aspnetcore/new-db setup dbContext
-            services.AddDbContext(ServiceLifetime.Scoped)
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("RalfyDB")));
 
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddSingleton<IDataContext, DataContext>();
 
             services.AddMvc();
         }
